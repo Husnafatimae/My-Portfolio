@@ -333,8 +333,21 @@ cursor:pointer
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+    color: rgb(4, 4, 5);
   }
   
+  .details-container.experience-text{
+    color:black
+  }
+
+  .details-container.education-text{
+    color:black
+  }
+
+  .text-container p {
+    color: black
+  }
+
   .section-container {
     gap: 4rem;
     height: 2rem;
