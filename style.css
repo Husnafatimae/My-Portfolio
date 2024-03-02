@@ -276,7 +276,7 @@ section  {
 
 .btn-color-1,
 .btn-color-2 {
-    border: rgb(208, 195, 195) 0.5 rem solid;
+    border: #d0c3c3 0.5 rem solid;
     box-shadow: 0 0 10px rgba(161, 43, 146, 0.8);
 }
 
@@ -291,18 +291,18 @@ cursor:pointer
 }
 
 .btn-color-1 {
-    background: rgb(174, 135, 135);
+    background: rgb(101, 170, 10);
 }
 .btn-color-1:hover {
-    background: rgb(196, 174, 174) ;
+    background: rgb(55, 55, 160) ;
 }
 
 .btn-color-2 {
-    background: rgb(174, 135, 135);
+    background: rgb(101, 170, 10);
 }
 
 .btn-color-2:hover {
-    background: rgb(196, 174, 174) ;
+    background: rgb(55, 55, 160) ;
 }
 
 .btn-container {
@@ -461,3 +461,50 @@ cursor:pointer
   article .icon {
     cursor: default;
   }
+
+  /* PROJECTS SECTION  */
+
+  #projects {
+    position: relative;
+  }
+
+  .color-container{
+    border-color:aqua;
+    background:rgb(207, 221, 45);
+  }
+
+  .projects-img {
+    border-radius: 2rem;
+    width:90%;
+    height:90%;
+  }
+
+  .project-title {
+    margin: 1rem;
+    color: rgb(42, 109, 180);
+  }
+
+  .project-btn {
+    color:rgb(9, 8, 7);
+    border-color:rgb(50, 194, 84);
+  }
+
+  .experience-details-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  .project-img {
+    max-width: 80%; 
+    height: auto; 
+  }
+
+  .project-description {
+    color:black;
+    font-size: large;
+    font-style: italic;
+  }
+  
+  
