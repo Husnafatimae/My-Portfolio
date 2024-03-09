@@ -471,14 +471,15 @@ cursor:pointer
 
   #projects {
     position: relative;
+    padding-top: 100px;
     padding-bottom: 100px;
     margin-bottom: 0.1rem;
 }
 
 .project-info {
     display: flex;
-    flex-direction: column; /* Change to column layout */
-    align-items: center; /* Center horizontally */
+    flex-direction: column; 
+    align-items: center; 
     text-align: center;
     margin: 0 auto;
     width: 50%; 
@@ -487,24 +488,24 @@ cursor:pointer
 .color-container {
     border-color: rgb(31, 26, 110);
     background: rgb(234, 204, 146);
-    border-radius: 10px; /* Adjust the border radius */
-    padding: 1rem; /* Add padding for spacing */
+    border-radius: 10px; 
+    padding: 1rem; 
     height: auto;
    
 }
 
-.projects-img {
+.project-img {
     border-radius: 5rem;
-    width: auto;
-    max-width: 300px; /* Limit maximum width */
-    height: 50PX; /* Auto adjust height */
-    margin-bottom: 5rem; /* Add margin for spacing */
+    width: 100%;
+    max-width: 300px; 
+    height: auto; 
+    margin-bottom: 5rem; 
 }
 
 .project-title {
     margin: 0.5rem;
     color: rgb(42, 109, 180);
-    font-size: small; /* Adjust font size */
+    font-size: small; 
 }
 
 .project-btn {
@@ -520,10 +521,10 @@ cursor:pointer
 }
 
 .project-img {
-    width: 100%; /* Adjust image width to fill container */
-    max-width: 250px; /* Set maximum width for responsiveness */
-    height: auto; /* Auto adjust height */
-    margin-bottom: 1rem; /* Add margin for spacing */
+    width: 100%; 
+    max-width: 250px; 
+    height: auto; 
+    margin-bottom: 1rem; 
 }
 
 .project-description {
@@ -545,11 +546,16 @@ cursor:pointer
   /* CONTACT SECTION */
 
   #contact {
+
+    position: relative;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    margin-bottom: 0.1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: -20px 0; /* Adjust the padding as needed */
+    padding: -20px 0;
 }
 
 
@@ -643,9 +649,12 @@ cursor:pointer
 /* FOOTER SECTION */
 
 footer {
+    display: flex;
+    align-items: flex-end; 
     height: 26vh;
     margin: 0 1rem;
-  }
+}
+
   
   footer p {
     text-align: center;
