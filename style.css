@@ -190,7 +190,7 @@ section  {
     
 }
 
-/* Add a class for the profile picture */
+
 
 
 
@@ -338,16 +338,14 @@ cursor:pointer
     gap: 0.5rem;
     margin-bottom: 6rem;
     margin-top: 6rem; 
-    align-items: left;
 
     
   }
   
   .about-details-container {
-    display:flex;
-    flex-direction: column;
-    justify-content: right;
-    align-items: center;
+    flex:1;
+    text-align:lect;
+    padding:0 1rem;
     
   }
 
@@ -362,8 +360,8 @@ cursor:pointer
   .about-pic {
     float:right;
     height: 400px;
-    width: 400px;
-    margin: none;
+    max-width: 400px;
+    flex-shrink: 0;
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 0 0 20px 10px rgb(132, 50, 106);
