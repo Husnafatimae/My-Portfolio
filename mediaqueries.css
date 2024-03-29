@@ -52,7 +52,7 @@
     }
 }
 
-
+#contact,
   footer {
     display: flex;
     align-items: center; 
@@ -139,7 +139,20 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    padding: 50px 0;
+    margin-bottom: 10px;
+    margin-top: 0; /* Adjusted margin-top to 0 */
+    display: flex;
+    flex-direction: column; /* Ensure vertical alignment */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+  }
+}
+
+@media screen and (max-width: 600px) {
   .contact-inputs{
     width: 80%;
     margin:10px auto;
