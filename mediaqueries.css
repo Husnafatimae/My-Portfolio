@@ -46,13 +46,6 @@
     margin-top: 0;
   }
 
-  @media screen and (max-width: 768px) {
-    section {
-        margin: 0 2rem; 
-    }
-}
-
-#contact,
   footer {
     display: flex;
     align-items: center; 
@@ -68,13 +61,9 @@
   footer {
     padding: 50px 0;
     margin-bottom: 10px;
-    margin-top: 0;
+    margin-top: 200px;
     display:flex;
-    flex-direction: column; 
-    align-items: center; 
-    text-align: center;
   }
-
   #profile {
     height: 83vh;
     margin-bottom: 0;
@@ -140,22 +129,8 @@
 }
 
 @media screen and (max-width: 600px) {
-  #contact,
-  footer {
-    padding: 50px 0;
-    margin-bottom: 10px;
-    margin-top: 0; /* Adjusted margin-top to 0 */
-    display: flex;
-    flex-direction: column; /* Ensure vertical alignment */
-    align-items: center; /* Center items horizontally */
-    text-align: center; /* Center text */
-  }
-}
-
-@media screen and (max-width: 600px) {
   .contact-inputs{
     width: 80%;
-    margin:10px auto;
   }
 
   .contact-left{
@@ -166,3 +141,27 @@
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .footer-container {
+      margin-top: -10px;
+      margin-bottom: -10px;
+  }
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 600px) {
+  .about-containers {
+      margin-bottom: 3rem;
+      margin-top: 3rem;
+      grid-template-columns: 1fr; /* Change to a single column layout */
+  }
+
+  .about-pic {
+      float: none; /* Center the image */
+      margin: 0 auto;
+  }
+
+  .about-details-container {
+      flex-direction: column; /* Stack details vertically */
+  }
+}
