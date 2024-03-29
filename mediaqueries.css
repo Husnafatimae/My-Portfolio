@@ -95,13 +95,20 @@
     gap: 0.5rem;
     text-align: center;
   }
-  .section__pic-container {
-    width: auto;
-    height: 46vw;
-    justify-content: center;
-  }
+  .section__pic-container img {
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+  .multiText {
+    font-size: 2rem;
+}
+
+  .section__text p {
+    font-size: 1rem;
+}
   .section__text__p2 {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
   .title {
     font-size: 2rem;
@@ -109,24 +116,15 @@
   .text-container {
     text-align: justify;
   }
-}
 
-@media screen and (max-width: 600px) {
-  .section__pic-container {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .section__text {
-    margin-top: 20px; 
-  }
-  .btn-container {
-    display: flex;
+  #socials-container {
     flex-direction: column;
     align-items: center;
-    margin-top: 20px; 
-    margin-bottom: 20px;
-  }
+    margin-top: 1rem;
 }
+}
+
+
 
 @media screen and (max-width: 600px) {
   .contact-inputs{
@@ -148,20 +146,31 @@
   }
 }
 
-/* Media query for mobile devices */
 @media screen and (max-width: 600px) {
-  .about-containers {
-      margin-bottom: 3rem;
-      margin-top: 3rem;
-      grid-template-columns: 1fr; /* Change to a single column layout */
+  #about {
+    padding: 2rem 0; /* Add padding to the about section */
+  }
+
+  .about-containers,
+  .about-details-container {
+    display: block; /* Change to block layout for single column */
+    margin: auto; /* Center the content horizontally */
+    text-align: center; /* Center text and image */
   }
 
   .about-pic {
-      float: none; /* Center the image */
-      margin: 0 auto;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    float: none; /* Remove float */
+    
   }
 
-  .about-details-container {
-      flex-direction: column; /* Stack details vertically */
+  .details-container {
+    margin-top: 1rem; /* Add margin between image and details */
+  }
+
+  .text-container p {
+    padding: 0 20px; /* Adjust padding for text */
   }
 }

@@ -198,12 +198,9 @@ section  {
     display:flex;
     height: 500px;
     width: 400px;
-    margin:auto 0;
+    margin: auto 10px auto 20px; 
     object-fit: cover;
     border-radius: 20%;
-    
-
-    
 }
 
 .multiText {
@@ -217,8 +214,6 @@ section  {
     color: rgb(228, 219, 219);
     
 }
-
-
 
 .section__text p{
     font-weight: 600;
@@ -239,8 +234,6 @@ section  {
 .section__text h1 {
     color: rgb(221, 50, 50);
 }
-
-
 
 .title {
     font-size: 3rem;
@@ -557,8 +550,7 @@ cursor:pointer
   #contact {
 
     position: relative;
-    
-    margin-bottom: 50px;
+    margin-bottom: 1px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -588,7 +580,7 @@ cursor:pointer
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: 40px;
+    gap: 50px;
     margin-right: 50px;
 }
 
