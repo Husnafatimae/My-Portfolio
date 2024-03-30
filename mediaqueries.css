@@ -58,12 +58,7 @@
 
 @media screen and (max-width: 600px) {
   #contact,
-  footer {
-    padding: 50px 0;
-    margin-bottom: 10px;
-    margin-top: 200px;
-    display:flex;
-  }
+  
   #profile {
     height: 83vh;
     margin-bottom: 0;
@@ -139,12 +134,6 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .footer-container {
-      margin-top: -10px;
-      margin-bottom: -10px;
-  }
-}
 
 @media screen and (max-width: 600px) {
   #about {
@@ -172,5 +161,21 @@
 
   .text-container p {
     padding: 0 20px; /* Adjust padding for text */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  footer{
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer-container {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding: 20px; /* Add padding for better spacing on smaller screens */
+      max-width: 100%; /* Ensure the footer spans the full width */
+      overflow-x: auto;
   }
 }

@@ -318,19 +318,15 @@ cursor:pointer
   .section__text__p1 {
     color: rgb(237, 243, 236);
 }
-
 .title {
     color: rgb(23, 154, 53);
 }
-
-  
   .about-containers {
     gap: 0.5rem;
     margin-bottom: 6rem;
     margin-top: 6rem; 
     align-items: left;
-
-    
+  
   }
   
   .about-details-container {
@@ -338,8 +334,6 @@ cursor:pointer
     flex-direction: row-reverse;  
   }
 
-  
-  
   .about-containers,
   .about-details-container {
    display: grid;
@@ -365,7 +359,6 @@ cursor:pointer
   .details-container {
 
     padding: 0.5rem;
-   
     background: rgb(234, 226, 226);
     border-radius: 1rem;
     border: rgb(53, 53, 53) 0.1rem solid;
@@ -658,14 +651,35 @@ cursor:pointer
 /* FOOTER SECTION */
 
 .footer-container {
-    display: flex;
-    flex-direction: column;
+    position: fixed; /* Set the position to fixed */
+    bottom: 0; /* Align the footer to the bottom of the viewport */
+    width: 100%; /* Set the width to span the entire viewport */
+    background-color: rgba(194, 50, 50, 0.9); /* Optional: add a semi-transparent background */
+    word-wrap: break-word; /* Wrap long words to prevent overflow */
+    overflow-wrap: break-word; /* For older browsers */
     color: crimson;
+    z-index: 1000; /* Ensure the footer is above other elements */
+    padding: 20px; /* Add padding for better spacing */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    text-align: center; /* Center text */
 }
 
 .flex-column {
     display: flex;
     flex-direction: column;
     text-align: center;
-    color: #1dad20;
+    color: #e0e9e0;
+}
+
+
+
+.footer-container .flex-column p {
+    color: rgb(2, 1, 1); /* Change the color of the text */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer-container .flex-column p a:hover {
+    text-decoration: underline; /* Add underline when hovered */
+    color: rgb(20, 17, 17); /* Change the color of the text when hovered */
 }
