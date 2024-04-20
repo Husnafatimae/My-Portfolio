@@ -92,7 +92,7 @@
   }
   .section__pic-container img {
     height: auto;
-    width: 100%;
+    width: auto;
     margin: auto;
     float:none;
 }
