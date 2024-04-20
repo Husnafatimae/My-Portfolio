@@ -195,13 +195,16 @@ section  {
 
 
 .section__pic-container img{
+    
     display:flex;
     height: 500px;
     width: 400px;
+    max-width:100%;
     margin: auto 10px auto 20px; 
     object-fit: cover;
     border-radius: 20%;
 }
+
 
 .multiText {
     font-size: 3rem; 
@@ -651,11 +654,11 @@ cursor:pointer
 /* FOOTER SECTION */
 
 .footer-container {
-    position: fixed; /* Set the position to fixed */
+    position:fixed;
     bottom: 0; /* Align the footer to the bottom of the viewport */
     width: 100%; /* Set the width to span the entire viewport */
-    background-color: rgba(194, 50, 50, 0.9); /* Optional: add a semi-transparent background */
-    color: crimson;
+    background-color: rgba(39, 35, 35, 0.9); /* Optional: add a semi-transparent background */
+    color: rgb(180, 24, 47);
     z-index: 1000; /* Ensure the footer is above other elements */
     padding: 20px; /* Add padding for better spacing */
     box-sizing: border-box; /* Ensure padding is included in the width */
@@ -672,7 +675,7 @@ cursor:pointer
 
 
 .footer-container .flex-column p {
-    color: rgb(2, 1, 1); /* Change the color of the text */
+    color: rgb(212, 21, 21); /* Change the color of the text */
     font-weight: bold;
   
 }
