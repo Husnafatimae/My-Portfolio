@@ -178,4 +178,7 @@
       max-width: 100%; /* Ensure the footer spans the full width */
       overflow-x: auto;
   }
+  .footer-container .flex-column {
+    padding: 10px;
+  }
 }

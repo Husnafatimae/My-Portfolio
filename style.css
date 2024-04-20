@@ -655,8 +655,6 @@ cursor:pointer
     bottom: 0; /* Align the footer to the bottom of the viewport */
     width: 100%; /* Set the width to span the entire viewport */
     background-color: rgba(194, 50, 50, 0.9); /* Optional: add a semi-transparent background */
-    word-wrap: break-word; /* Wrap long words to prevent overflow */
-    overflow-wrap: break-word; /* For older browsers */
     color: crimson;
     z-index: 1000; /* Ensure the footer is above other elements */
     padding: 20px; /* Add padding for better spacing */
@@ -676,7 +674,7 @@ cursor:pointer
 .footer-container .flex-column p {
     color: rgb(2, 1, 1); /* Change the color of the text */
     font-weight: bold;
-    text-decoration: none;
+  
 }
 
 .footer-container .flex-column p a:hover {
